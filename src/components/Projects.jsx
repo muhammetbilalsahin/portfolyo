@@ -12,7 +12,7 @@ export default function Projects() {
     },
     {
       name: "Portfolio Website",
-      description: "My personal portfolio website showcasing projects and skills.",
+      description: "In this portfolio, I showcase my projects developed with React and modern web technologies in a user-friendly and visually appealing way.",
       tech: ["React", "CSS", "EmailJS"],
       github: "https://github.com/muhammetbilalsahin/portfolio",
       demo: "https://portfolio-mocha-alpha-76.vercel.app/",
