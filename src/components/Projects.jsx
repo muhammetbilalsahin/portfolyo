@@ -14,8 +14,8 @@ export default function Projects() {
       name: "Portfolio Website",
       description: "My personal portfolio website showcasing projects and skills.",
       tech: ["React", "CSS", "EmailJS"],
-      github: "https://github.com/username/portfolio",
-      demo: "https://portfolio-demo.netlify.app",
+      github: "https://github.com/muhammetbilalsahin/portfolio",
+      demo: "https://portfolio-mocha-alpha-76.vercel.app/",
     },
   ];
 
