@@ -1,0 +1,29 @@
+.about {
+  color: white;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 800px;
+  width: 90%;
+  text-align: left;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #7b7044;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #9b8f5a;
+  font-weight: bold;
+}
