@@ -52,11 +52,16 @@ ul {
     margin-bottom: 0.5rem;
   }
 
-
+}
 @media (max-width: 480px) {
 
   /* Navbar */
-  .logo { font-size: 1.3rem; }
+  .navbar{
+    padding: 0;
+    margin: 0;
+  }
+  .logo { font-size: 1.3rem;
+   padding:0 }
 
   /* Hero Fotoğraf */
   .hero-photo img {
@@ -79,5 +84,7 @@ ul {
   /* Sectionlar */
   section h2 { font-size: 1.8rem; }
   section p, section li { font-size: 0.9rem; }
-}
+  .projects{
+    padding: 0;
+  }
 }

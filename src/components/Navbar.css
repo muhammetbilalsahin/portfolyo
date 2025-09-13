@@ -9,7 +9,7 @@
 .nav-links a {
   color: rgb(218, 182, 123);
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 ;
   transition: color 0.3s;
 }
 
