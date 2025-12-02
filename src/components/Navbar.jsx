@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="logo">| My Portfolio</h1>
+        <h1 className="logo">| Muhammet Bilal Şahin</h1>
         <ul className="nav-links">
           <li>
             <a

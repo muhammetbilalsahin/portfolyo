@@ -6,13 +6,14 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import StarField from "./components/StarField";
+import Background from "./components/Background";
+//import StarField from "./components/StarField";
 
 export default function App() {
   return (
-    <div style={{ position: "relative", minHeight: "100vh" }}>
-      <StarField count={200} />
-      <div style={{ position: "relative", zIndex: 1 }}>
+    
+    <div >
+     <Background particleCount={100} />
         <Navbar />
         <Hero />
         <About />
@@ -21,6 +22,6 @@ export default function App() {
         <Contact />
         <Footer />
       </div>
-    </div>
+   
   );
 }

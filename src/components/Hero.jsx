@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profile from "../assets/images/portfolio.png";
+import profile from "../assets/images/mbs.jpeg";
 import { ReactTyped } from "react-typed";
 
 export default function Hero() {
@@ -32,9 +32,18 @@ export default function Hero() {
         </div>
 
         {/* Fotoğraf */}
-        <div className="hero-photo fade-in-up delay-2">
-          <img src={profile} alt="Muhammet Bilal Şahin" />
+       <section className="hero">
+      <div className="hero-photo-container">
+        <div className="hero-photo-wrapper">
+          <div className="rings">
+            <div className="ring ring1"></div>
+            <div className="ring ring2"></div>
+            <div className="ring ring3"></div>
+          </div>
+          <img src={profile} alt="Muhammet Bilal Şahin" className="hero-photo" />
         </div>
+      </div>
+        </section>
       </div>
     </section>
   );
